@@ -745,7 +745,7 @@ box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
-  background: #fdf5f5;
+ background: #fdf5f5;
 }
 
 .contact .info {
@@ -966,8 +966,19 @@ box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
+
+
+.portfolio-image-cls img {
+  height: 48vh;
+  background-position: center;
+  background-size: cover !important;
+  width: 100%;
+}
+
 .portfolio-details {
-  padding-top: 0;
+  /* padding-top: 0; */
+  margin-bottom: -14px;
 }
 
 .portfolio-details .portfolio-details-container {
@@ -998,20 +1009,20 @@ box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
+  padding: 15px 20px;
   position: absolute;
   right: 0;
-  bottom: -70px;
+  bottom: -50px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   z-index: 2;
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #eee;
 }
 
@@ -1246,7 +1257,15 @@ div.isotope-pager{
   width: 100%;
   display: block;
 }
-
+.isotope {
+  height: auto !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
 
 
 .isotope-pager a{
